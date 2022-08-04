@@ -1,0 +1,33 @@
+Writing Apex Triggers
+
+Apex triggers enable you to perform custom actions before or after events to records in Salesforce, such as insertions, updates, or deletions. Just like database systems support triggers, Apex provides trigger support for managing records.
+Typically, you use triggers to perform operations based on specific conditions, to modify related records or restrict certain operations from happening. You can use triggers to do anything you can do in Apex, including executing SOQL and DML or calling custom Apex methods.
+before insert
+before update
+before delete
+after insert
+after update
+after delete
+after undelete
+
+
+
+Apex Unit Tests
+
+The Apex testing framework enables you to write and execute tests for your Apex classes and triggers on the Lightning Platform. Apex unit tests ensure high quality for your Apex code and let you meet requirements for deploying Apex.
+Ensuring that your Apex classes and triggers work as expected
+Having a suite of regression tests that can be rerun every time classes and triggers are updated to ensure that future updates you make to your app don’t break existing functionality
+Meeting the code coverage requirements for deploying Apex to production or distributing Apex to customers via packages
+High-quality apps delivered to the production org, which makes production users more productive
+High-quality apps delivered to package subscribers, which increase your customers trust
+
+Workspace -
+ Similarly, workspaces in the Developer Console help you organize information to show just what you need as you work on each of your development tasks. Although it sounds like a fancy term, a workspace is simply a collection of resources, represented by tabs, in the main panel of the Developer Console. You can create a workspace for any group of resources that you use together.
+
+Create an Apex Class
+
+Apex is a Salesforce programming language that you can use to customize business processes in your org.
+progressheet
+assert* 
+loop*
+quick and global actiona
